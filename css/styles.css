@@ -1,0 +1,42 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: darkmagenta;    
+}
+
+header h2 {
+    color: darkmagenta;
+}
+
+footer {
+    background-image: linear-gradient(to right, rgb(238, 198, 205), rgb(212, 89, 212));
+    padding: 20px 0;
+    color: darkmagenta;
+}
+
+a {
+    color:rgb(255, 240, 253)
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, pink, purple);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+
+}
