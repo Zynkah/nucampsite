@@ -22,7 +22,7 @@ header h2 {
     text-shadow: 1px 1px brown; 
 }
 
-footer {
+.site-footer {
     background: url("https://cdn3.bigcommerce.com/s-9qugz4w/products/17701/images/21284/TOT47143__88708.1439926282.1280.1280.jpg?c=2");
     padding: 10px 0px;
     color: brown;
