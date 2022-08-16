@@ -29,12 +29,12 @@ footer {
 }
 
 a {
-    color: linen;
-    text-shadow: 1px 1px brown; 
+    color: brown;
+    text-shadow: 1px 1px linen;
 }
 
 a:hover {
-    color: brown;
+    color: palevioletred;
     text-decoration: none;
 }
 
@@ -62,18 +62,11 @@ a:hover {
 }
 
 .btn {
-    color: linen;
-    text-shadow: 1px 1px brown;
+    color: brown;
+    text-shadow: 1px 1px linen;
 }
 
 .btn:hover {
-    color: brown;
+    color: palevioletred;
     text-decoration: none;
-}
-
-.contact {
-    background-color:pink;
-    border-radius: 0.5em;
-    padding: 2px;
-    opacity: 0.8;
 }
