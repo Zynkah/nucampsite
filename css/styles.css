@@ -30,7 +30,6 @@ footer {
 
 a {
     color: brown;
-    text-shadow: 1px 1px linen;
 }
 
 a:hover {
@@ -63,7 +62,6 @@ a:hover {
 
 .btn {
     color: brown;
-    text-shadow: 1px 1px linen;
 }
 
 .btn:hover {
