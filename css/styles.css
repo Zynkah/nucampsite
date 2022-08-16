@@ -24,7 +24,7 @@ header h2 {
 
 footer {
     background: url("https://cdn3.bigcommerce.com/s-9qugz4w/products/17701/images/21284/TOT47143__88708.1439926282.1280.1280.jpg?c=2");
-    padding: 10px 0;
+    padding: 10px 0px;
     color: brown;
 }
 
@@ -41,7 +41,7 @@ a:hover {
 .jumbotron {
     padding: 30px;
     background: url("https://cdn3.bigcommerce.com/s-9qugz4w/products/17701/images/21284/TOT47143__88708.1439926282.1280.1280.jpg?c=2");
-    color: white;
+    color: linen;
     margin: 0;
 }
 
@@ -58,5 +58,22 @@ a:hover {
 
 .breadcrumb {
     background-color: pink;
-    opacity: 0.5;
+    opacity: 0.7;
+}
+
+.btn {
+    color: linen;
+    text-shadow: 1px 1px brown;
+}
+
+.btn:hover {
+    color: brown;
+    text-decoration: none;
+}
+
+.contact {
+    background-color:pink;
+    border-radius: 0.5em;
+    padding: 2px;
+    opacity: 0.8;
 }
