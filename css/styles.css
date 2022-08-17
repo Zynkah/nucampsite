@@ -4,42 +4,43 @@ body {
 
 h1 {
     font-family: "Lobster", cursive;
-    text-shadow: 2px 2px brown; 
+    text-shadow: 2px 2px palevioletred; 
 }
 
 h2, h3 {
     font-family: "Lobster", cursive;
-    color: brown;
+    color: salmon;
 }
 
 h2 {
     color: palevioletred;
-    text-shadow: 1px 1px brown; 
+    text-shadow: 1px 1px salmon; 
 }
 
 header h2 {
-    color: palevioletred;
-    text-shadow: 1px 1px brown; 
+    color: linen;
+    text-shadow: 1px 1px steelblue; 
 }
 
 .site-footer {
-    background: url("https://cdn3.bigcommerce.com/s-9qugz4w/products/17701/images/21284/TOT47143__88708.1439926282.1280.1280.jpg?c=2");
+    background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
     padding: 10px 0px;
-    color: brown;
+    color: linen;
+    text-shadow: 1px 1px palevioletred;
 }
 
 a {
-    color: brown;
+    color: linen;
 }
 
 a:hover {
-    color: palevioletred;
+    color: steelblue;
     text-decoration: none;
 }
 
 .jumbotron {
     padding: 30px;
-    background: url("https://cdn3.bigcommerce.com/s-9qugz4w/products/17701/images/21284/TOT47143__88708.1439926282.1280.1280.jpg?c=2");
+    background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
     color: linen;
     margin: 0;
 }
@@ -56,15 +57,16 @@ a:hover {
 }
 
 .breadcrumb {
-    background-color: pink;
+    background-color: salmon;
     opacity: 0.7;
 }
 
 .btn {
-    color: brown;
+    color: indigo;
+    text-shadow: 1px 1px palevioletred;
 }
 
 .btn:hover {
-    color: palevioletred;
+    color: salmon;
     text-decoration: none;
 }
