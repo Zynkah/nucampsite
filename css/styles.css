@@ -26,7 +26,7 @@ header h2 {
     background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
     padding: 10px 0px;
     color: linen;
-    text-shadow: 1px 1px palevioletred;
+    text-shadow: 1px 1px indigo;
 }
 
 a {
@@ -62,11 +62,27 @@ a:hover {
 }
 
 .btn {
-    color: indigo;
-    text-shadow: 1px 1px palevioletred;
+    color: linen;
+    text-shadow: 1px 1px indigo;
 }
 
 .btn:hover {
     color: salmon;
     text-decoration: none;
+}
+
+#email {
+    color: salmon;
+}
+
+#email:hover {
+    color: steelblue;
+}
+
+#tel {
+    color: salmon;
+}
+
+#tel:hover {
+    color: steelblue;
 }
