@@ -87,12 +87,6 @@ a:hover {
     color: steelblue;
 }
 
-.nav-item {
+.card-header {
     background-color: palevioletred;
-}
-
-.tab-content {
-    border: 1px solid linen;
-    border-top: none;
-    padding: 10px;
 }
