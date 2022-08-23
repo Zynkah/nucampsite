@@ -90,3 +90,11 @@ a:hover {
 .card-header {
     background-color: palevioletred;
 }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid palevioletred;
+}
