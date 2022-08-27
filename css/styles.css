@@ -97,4 +97,15 @@ a:hover {
 
 .carousel {
     border: solid palevioletred;
+
+}
+
+.nav-tabs {
+    background-color: salmon;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }
