@@ -1,0 +1,129 @@
+$color-primary: palevioletred;
+$color-secondary: salmon;
+$color-pale: linen;
+$color-mid: steelblue;
+$color-dark: indigo;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+body {
+    font-family: $body-font;
+}
+
+h1 {
+    font-family: $header-font;
+    text-shadow: 2px 2px $color-primary; 
+}
+
+h2, h3 {
+    font-family: $header-font;
+    color: $color-secondary;
+}
+
+h2 {
+    color: $color-primary;
+    text-shadow: 1px 1px $color-secondary; 
+}
+
+header {
+    h2 {
+    color: $color-pale;
+    text-shadow: 1px 1px $color-mid;
+    } 
+}
+
+.site-footer {
+    background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
+    padding: 10px 0px;
+    color: $color-pale;
+    text-shadow: 1px 1px $color-dark;
+}
+
+a {
+    color: $color-pale;
+}
+
+a:hover {
+    color: $color-mid;
+    text-decoration: none;
+}
+
+.jumbotron {
+    padding: 30px;
+    background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
+    color: $color-pale;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: $color-primary;
+}
+
+.breadcrumb {
+    background-color: $color-secondary;
+    opacity: 0.7;
+}
+
+.btn {
+    color: $color-pale;
+    text-shadow: 1px 1px $color-dark;
+}
+
+.btn:hover {
+    color: $color-secondary;
+    text-decoration: none;
+}
+
+#email {
+    color: $color-secondary;
+}
+
+#email:hover {
+    color: $color-mid;
+}
+
+#tel {
+    color: $color-secondary;
+}
+
+#tel:hover {
+    color: $color-mid;
+}
+
+.card-header {
+    background-color: $color-primary;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border: solid $color-primary;
+
+}
+
+.nav-tabs {
+    background-color: $color-secondary;
+}
+
+.tab-content {
+    border: 1px solid $color-pale;
+    border-top: none;
+    padding: 10px;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
