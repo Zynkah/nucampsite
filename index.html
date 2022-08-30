@@ -33,15 +33,11 @@
                     <h2>a better way to camp</h2>
                 </div>
 
-
-
                 <div class="col-md-4 col-xl-2 mt-4">
-
                     <a role="button" class="btn btn-lg btn-info text-nowrap" data-toggle="modal"
                         data-target="#reserveModal">
                         Reserve Campsite
                     </a>
-
                 </div>
             </div>
         </div>
@@ -123,8 +119,7 @@
                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
                             About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
-                                class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
                     <a role="button" data-toggle="modal" data-target="#loginModal">
@@ -219,7 +214,16 @@
                         <span class="carousel-control-next-icon"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                    <div class="btn-group" id="carouselButton">
+                        <button class="btn btn-info btn-sm" id="carouselPause">
+                            <i class="fa fa-pause"></i>
+                        </button>
+                        <button class="btn btn-info btn-sm" id="carouselPlay">
+                            <i class="fa fa-play"></i>
+                    </button>
                 </div>
+                </div>
+                
             </div>
         </div>
         <ul class="nav nav-tabs">
@@ -334,6 +338,15 @@
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
         })
+        $(function() {
+            $(".carousel").carousel( { interval: 2000, pause: "false" } );
+            $("#carouselPause").click(function(){
+                $(".carousel").carousel("pause");
+            });
+            $("#carouselPlay").click(function(){
+                $(".carousel").carousel("cycle");
+            });
+        });
     </script>
 
 </body>
