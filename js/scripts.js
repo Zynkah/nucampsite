@@ -16,3 +16,15 @@ $(function() {
         }
     });
 });
+
+$(function() {
+    $('#reserveButton').click('shown.bs.modal', function() {
+    $('#reserveModal').modal('show')
+    });
+});
+
+$(function() {
+    $('#loginButton').click('shown.bs.modal', function() {
+    $('#loginModal').modal('show')
+    });
+});

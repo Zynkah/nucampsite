@@ -1,118 +1,102 @@
 body {
-    font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
 h1 {
-    font-family: "Lobster", cursive;
-    text-shadow: 2px 2px palevioletred; 
-}
+  font-family: "Lobster", cursive;
+  text-shadow: 2px 2px palevioletred; }
 
 h2, h3 {
-    font-family: "Lobster", cursive;
-    color: salmon;
-}
+  font-family: "Lobster", cursive;
+  color: salmon; }
 
 h2 {
-    color: palevioletred;
-    text-shadow: 1px 1px salmon; 
-}
+  color: palevioletred;
+  text-shadow: 1px 1px salmon; }
 
 header h2 {
-    color: linen;
-    text-shadow: 1px 1px steelblue; 
-}
+  color: linen;
+  text-shadow: 1px 1px steelblue; }
 
 .site-footer {
-    background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
-    padding: 10px 0px;
-    color: linen;
-    text-shadow: 1px 1px indigo;
-}
+  background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
+  padding: 10px 0px;
+  color: linen;
+  text-shadow: 1px 1px indigo; }
 
 a {
-    color: linen;
-}
+  color: linen; }
 
 a:hover {
-    color: steelblue;
-    text-decoration: none;
-}
+  color: steelblue;
+  text-decoration: none; }
 
 .jumbotron {
-    padding: 30px;
-    background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
-    color: linen;
-    margin: 0;
-}
+  padding: 30px;
+  background: url("https://wallpapercave.com/wp/RXkDYt8.jpg");
+  color: linen;
+  margin: 0; }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
 .navbar {
-    background-color: palevioletred;
-}
+  background-color: palevioletred; }
 
 .breadcrumb {
-    background-color: salmon;
-    opacity: 0.7;
-}
+  background-color: salmon;
+  opacity: 0.7; }
 
 .btn {
-    color: linen;
-    text-shadow: 1px 1px indigo;
-}
+  color: linen;
+  text-shadow: 1px 1px indigo; }
 
 .btn:hover {
-    color: salmon;
-    text-decoration: none;
-}
+  color: salmon;
+  text-decoration: none; }
 
 #email {
-    color: salmon;
-}
+  color: salmon; }
 
 #email:hover {
-    color: steelblue;
-}
+  color: steelblue; }
 
 #tel {
-    color: salmon;
-}
+  color: salmon; }
 
 #tel:hover {
-    color: steelblue;
-}
+  color: steelblue; }
 
 .card-header {
-    background-color: palevioletred;
-}
+  background-color: palevioletred; }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-    border: solid palevioletred;
-
-}
+  border: solid palevioletred; }
 
 .nav-tabs {
-    background-color: salmon;
-}
+  background-color: salmon; }
 
 .tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
+  border: 1px solid linen;
+  border-top: none;
+  padding: 10px; }
 
 #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-}
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8; }
+  #reserveModal .modal-header h3 {
+    color: linen; }
+
+#loginModal .modal-header {
+  background-color: steelblue; }
+  #loginModal .modal-header h3 {
+    color: linen; }
